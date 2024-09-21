@@ -4,20 +4,27 @@
       flex-direction: column;
       height: fit-content;
       min-width: 100%;
-      align-items: start;
+      align-items: center;
       height: fit-content;
       gap: 5px;
    }
+   body{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+   }
    .middle-cards{
       gap: 0;
-      justify-content: start;
+     
    }
    .middle-cards > div > img{
       width: 250px;
       height: 80%;
+      text-align: center;
    }
    .middle-content-card{
       max-width: 80%;
+      text-align: center;
    }
    .buble-text{
       width: 350px;
@@ -28,13 +35,17 @@
    .middle-cards{
       display: flex;
       flex-direction: column;
-      height: 100%;
       align-items: center;
       gap: 4px;
+      justify-content: center;
    }
    .artem-jones-card{
       min-width: 100%;
    }
+   .bottom-part{
+      margin-top: 12px;
+   }
+
 }
 .cards-wrapper {
   width: 100%;
@@ -46,7 +57,7 @@
 }
 .top-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 1rem;
 }
 
@@ -135,7 +146,8 @@ h3 {
    width: 400px;
    border-radius: 1.5rem;
    padding: 1rem;
-   background-color: rgb(206, 171, 171);
+   background-color: black;
+   color: white;
 }
  .star-img{
    max-width: 30px;
@@ -147,6 +159,7 @@ h3 {
 .stars-wrapper{
    display: flex;
    gap: 5px;
+
 }
 .name-txt{
    text-align: start;
@@ -154,4 +167,46 @@ h3 {
 }
 h1{
    margin: 0;
+}
+.bottom-part{
+   display: flex;
+   flex-direction: column;
+   min-height: 300px;
+   width: 100%;
+   align-items: center;
+   border: 2px solid black;
+   border-radius: 2rem;
+   
+}
+.bottom-text{
+   width: 80%;
+   padding-top: 1rem;
+}
+.bottom-avatar-img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+}
+.bottom-avatar-img-right , .bottom-avatar-img-left{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   opacity: 0.5;
+
+}
+small{
+   color: gray;
+}
+.bottom-avatar-and-btn-wrapper{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-top: 2rem;
+}
+span{
+   font-size: x-large;
+   font-weight: bold;
+}
+footer{
+min-height: 2rem;
 }
